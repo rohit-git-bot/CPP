@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'librarymanagement.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'LIB_MGMT',
+        'NAME': 'libmgmtdb',
         'USER': 'postgres',
         'PASSWORD': 'postgres',
-        'HOST':'localhost',
+        'HOST':'libmgmtdb.cdgimh2kndzu.us-east-1.rds.amazonaws.com',
         'PORT':'5432'
     }
 }
